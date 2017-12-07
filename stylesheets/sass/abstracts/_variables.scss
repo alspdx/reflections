@@ -1,0 +1,42 @@
+// Grid variables
+$grid-columns: 12;
+
+$grid-sizes: (
+  'sm':'screen and (min-width:1px)',
+  'md':'screen and (min-width:768px)',
+  'lg':'screen and (min-width:1024px)',
+  'xl':'screen and (min-width:1440px)'
+);
+
+// Colors & Backgrounds
+
+$wrapper-bg-img: url('../../images/water-bg.jpg');
+$wrapper-bg-overlay-color: rgba(60,60,60,.7);
+$wrapper-bg: linear-gradient(#{$wrapper-bg-overlay-color}, #{$wrapper-bg-overlay-color}), #{$wrapper-bg-img};
+
+$header-bg: transparent;
+$header-text-color: rgba(255,255,255,.5);
+$icon-hover-bg: $header-text-color;
+$icon-hover: rgba(255,255,255,.8);
+
+
+$gallery-bg: white;
+
+$card-bg: red;
+
+$footer-bg: blue;
+
+// Sizes
+
+$border-radius: 8px;
+
+$header-height: 70px;
+$header-padding: 10px;
+$icon-size: 60px;
+
+
+$hero-height: calc(100vh - #{$header-height});
+$blurb-height: 0;
+$gallery-height: 0;
+$card-height: 0;
+$footer-height: 0;

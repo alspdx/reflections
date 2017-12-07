@@ -1,0 +1,22 @@
+.header {
+  height: $header-height;
+  width: 100%;
+  position: fixed;
+  padding: 0 $header-padding;
+  color: $header-text-color;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  .icon {
+    height: $icon-size;
+    width: $icon-size;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: $border-radius;
+    &:hover, &:focus {
+      background: $icon-hover-bg;
+      color: $icon-hover;
+    }
+  }
+}

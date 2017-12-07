@@ -1,0 +1,348 @@
+.wrapper,
+.row {
+  *zoom: 1; }
+  .wrapper:before,
+  .row:before, .wrapper:after,
+  .row:after {
+    content: " ";
+    display: table; }
+  .wrapper:after,
+  .row:after {
+    clear: both; }
+
+.wrapper {
+  background: linear-gradient(rgba(60, 60, 60, 0.7), rgba(60, 60, 60, 0.7)), url("../../images/water-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed; }
+
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 1px dotted black; }
+
+[class^='col-'] {
+  float: left;
+  padding: 1em;
+  width: 100%;
+  min-height: 1px; }
+
+@media screen and (min-width: 1px) {
+  .col-sm-12 {
+    width: calc(100% / 12 * 1); }
+
+  .offset-sm-12 {
+    margin-left: 8.33333%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 2); }
+
+  .offset-sm-12 {
+    margin-left: 16.66667%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 3); }
+
+  .offset-sm-12 {
+    margin-left: 25%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 4); }
+
+  .offset-sm-12 {
+    margin-left: 33.33333%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 5); }
+
+  .offset-sm-12 {
+    margin-left: 41.66667%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 6); }
+
+  .offset-sm-12 {
+    margin-left: 50%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 7); }
+
+  .offset-sm-12 {
+    margin-left: 58.33333%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 8); }
+
+  .offset-sm-12 {
+    margin-left: 66.66667%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 9); }
+
+  .offset-sm-12 {
+    margin-left: 75%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 10); }
+
+  .offset-sm-12 {
+    margin-left: 83.33333%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 11); }
+
+  .offset-sm-12 {
+    margin-left: 91.66667%; }
+
+  .col-sm-12 {
+    width: calc(100% / 12 * 12); }
+
+  .offset-sm-12 {
+    margin-left: 100%; } }
+@media screen and (min-width: 768px) {
+  .col-md-12 {
+    width: calc(100% / 12 * 1); }
+
+  .offset-md-12 {
+    margin-left: 8.33333%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 2); }
+
+  .offset-md-12 {
+    margin-left: 16.66667%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 3); }
+
+  .offset-md-12 {
+    margin-left: 25%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 4); }
+
+  .offset-md-12 {
+    margin-left: 33.33333%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 5); }
+
+  .offset-md-12 {
+    margin-left: 41.66667%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 6); }
+
+  .offset-md-12 {
+    margin-left: 50%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 7); }
+
+  .offset-md-12 {
+    margin-left: 58.33333%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 8); }
+
+  .offset-md-12 {
+    margin-left: 66.66667%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 9); }
+
+  .offset-md-12 {
+    margin-left: 75%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 10); }
+
+  .offset-md-12 {
+    margin-left: 83.33333%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 11); }
+
+  .offset-md-12 {
+    margin-left: 91.66667%; }
+
+  .col-md-12 {
+    width: calc(100% / 12 * 12); }
+
+  .offset-md-12 {
+    margin-left: 100%; } }
+@media screen and (min-width: 1024px) {
+  .col-lg-12 {
+    width: calc(100% / 12 * 1); }
+
+  .offset-lg-12 {
+    margin-left: 8.33333%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 2); }
+
+  .offset-lg-12 {
+    margin-left: 16.66667%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 3); }
+
+  .offset-lg-12 {
+    margin-left: 25%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 4); }
+
+  .offset-lg-12 {
+    margin-left: 33.33333%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 5); }
+
+  .offset-lg-12 {
+    margin-left: 41.66667%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 6); }
+
+  .offset-lg-12 {
+    margin-left: 50%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 7); }
+
+  .offset-lg-12 {
+    margin-left: 58.33333%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 8); }
+
+  .offset-lg-12 {
+    margin-left: 66.66667%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 9); }
+
+  .offset-lg-12 {
+    margin-left: 75%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 10); }
+
+  .offset-lg-12 {
+    margin-left: 83.33333%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 11); }
+
+  .offset-lg-12 {
+    margin-left: 91.66667%; }
+
+  .col-lg-12 {
+    width: calc(100% / 12 * 12); }
+
+  .offset-lg-12 {
+    margin-left: 100%; } }
+@media screen and (min-width: 1440px) {
+  .col-xl-12 {
+    width: calc(100% / 12 * 1); }
+
+  .offset-xl-12 {
+    margin-left: 8.33333%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 2); }
+
+  .offset-xl-12 {
+    margin-left: 16.66667%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 3); }
+
+  .offset-xl-12 {
+    margin-left: 25%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 4); }
+
+  .offset-xl-12 {
+    margin-left: 33.33333%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 5); }
+
+  .offset-xl-12 {
+    margin-left: 41.66667%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 6); }
+
+  .offset-xl-12 {
+    margin-left: 50%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 7); }
+
+  .offset-xl-12 {
+    margin-left: 58.33333%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 8); }
+
+  .offset-xl-12 {
+    margin-left: 66.66667%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 9); }
+
+  .offset-xl-12 {
+    margin-left: 75%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 10); }
+
+  .offset-xl-12 {
+    margin-left: 83.33333%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 11); }
+
+  .offset-xl-12 {
+    margin-left: 91.66667%; }
+
+  .col-xl-12 {
+    width: calc(100% / 12 * 12); }
+
+  .offset-xl-12 {
+    margin-left: 100%; } }
+.header {
+  height: 70px;
+  width: 100%;
+  position: fixed;
+  padding: 0 10px;
+  color: rgba(255, 255, 255, 0.5);
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .header .icon {
+    height: 60px;
+    width: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px; }
+    .header .icon:hover, .header .icon:focus {
+      background: rgba(255, 255, 255, 0.5);
+      color: rgba(255, 255, 255, 0.8); }
+
+.hero {
+  height: 100vh;
+  padding-top: 70px; }
+
+/*# sourceMappingURL=main.css.map */
