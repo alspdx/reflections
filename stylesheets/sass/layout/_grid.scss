@@ -6,7 +6,6 @@
 
   @include border-box;
 
-  @include wire-frame;
 }
 
 .wrapper,
@@ -16,7 +15,7 @@
 
 [class^='col-'] {
   float: left;
-  padding: 1em;
+  padding: $padding-single;
   width: 100%;
   min-height: 1px;
 }
@@ -24,11 +23,11 @@
 @each $size, $value in $grid-sizes {
   @media #{$value} {
     @for $i from 1 through $grid-columns {
-      .col-#{$size}-#{$grid-columns} {
+      .col-#{$size}-#{$i} {
         width: calc(100% / #{$grid-columns} * #{$i});
       }
-      .offset-#{$size}-#{$grid-columns} {
-        margin-left: 100% / $grid-columns * $i;
+      .offset-#{$size}-#{$i} {
+        margin-left: calc(100% / #{$grid-columns} * #{$i});
       }
     }
   }

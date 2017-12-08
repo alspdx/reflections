@@ -1,4 +1,8 @@
 .hero {
-  height: 100vh;
-  padding-top: $header-height;
+  height: $hero-height;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+  }
 }

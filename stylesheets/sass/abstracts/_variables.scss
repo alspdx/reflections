@@ -9,16 +9,27 @@ $grid-sizes: (
 );
 
 // Colors & Backgrounds
+//color palette
+$light-blue: rgb(144,184,199);
+$dark-blue: rgb(51,77,97);
+$light-transparent: rgba(255,255,255,.7);
+$light-orange: rgb(191,143,108);
+$light-teal: rgb(52,138,171);
+$medium-teal: rgb(51,77,97);
+
+$body-bg: $medium-teal;
 
 $wrapper-bg-img: url('../../images/water-bg.jpg');
 $wrapper-bg-overlay-color: rgba(60,60,60,.7);
 $wrapper-bg: linear-gradient(#{$wrapper-bg-overlay-color}, #{$wrapper-bg-overlay-color}), #{$wrapper-bg-img};
 
 $header-bg: transparent;
-$header-text-color: rgba(255,255,255,.5);
-$icon-hover-bg: $header-text-color;
-$icon-hover: rgba(255,255,255,.8);
+$logo-color: $light-teal;
+$icon-text-color: $light-orange;;
+$icon-hover-bg: $light-transparent;
+$icon-hover: $light-transparent;
 
+$blurb-bg: 0;
 
 $gallery-bg: white;
 
@@ -29,14 +40,16 @@ $footer-bg: blue;
 // Sizes
 
 $border-radius: 8px;
+$padding-single: .5em;
+$padding-double: calc(#{$padding-single} * 2);
 
 $header-height: 70px;
-$header-padding: 10px;
+
 $icon-size: 60px;
 
 
-$hero-height: calc(100vh - #{$header-height});
-$blurb-height: 0;
+$hero-height: 70vh;
+$blurb-height: calc(30vh - #{$padding-single});
 $gallery-height: 0;
 $card-height: 0;
 $footer-height: 0;

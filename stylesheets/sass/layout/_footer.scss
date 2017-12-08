@@ -1,0 +1,24 @@
+.footer {
+  background-color: $body-bg;
+  height: $header-height;
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  display: flex;
+  align-items: center;
+}
+ul {
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  li {
+    color: $light-orange;
+  }
+}
+
+@media screen and (min-width:768px) {
+  .footer {
+    font-size: 4em;
+  }
+}
